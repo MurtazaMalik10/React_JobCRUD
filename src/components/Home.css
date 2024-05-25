@@ -1,0 +1,68 @@
+/* Home Component Styles */
+.Home {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.Home ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Home li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home li:hover {
+  background-color: #f0f0f0;
+}
+
+.Home li .actions {
+  display: flex;
+  gap: 10px;
+}
+
+.Home li button {
+  padding: 8px 12px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.Home li button:hover {
+  background-color: #e53935;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}

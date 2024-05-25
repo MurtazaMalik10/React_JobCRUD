@@ -1,0 +1,63 @@
+.JobApplicationForm {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.JobApplicationForm h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.JobApplicationForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.JobApplicationForm form div {
+  margin-bottom: 15px;
+}
+
+.JobApplicationForm form label {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.JobApplicationForm form input[type="text"],
+.JobApplicationForm form input[type="email"],
+.JobApplicationForm form input[type="number"],
+.JobApplicationForm form input[type="date"],
+.JobApplicationForm form select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.JobApplicationForm form select {
+  cursor: pointer;
+}
+
+.JobApplicationForm form button[type="submit"] {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.JobApplicationForm form button[type="submit"]:hover {
+  background-color: #45a049;
+}
