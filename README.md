@@ -47,12 +47,15 @@ This project is a web application for managing job applications, built using Rea
       cd ../client
       npm start
 
-**API Endpoints (Server)**
-GET /api/applications: Retrieve all job applications.
-GET /api/applications/:id: Retrieve a job application by ID.
-POST /api/applications: Create a new job application.
-PATCH /api/applications/:id: Update a job application by ID.
-DELETE /api/applications/:id: Delete a job application by ID.
+## API Endpoints (Server)
 
-**Contributing**
+- **GET** `/api/applications`: Retrieve all job applications.
+- **GET** `/api/applications/:id`: Retrieve a job application by ID.
+- **POST** `/api/applications`: Create a new job application.
+- **PATCH** `/api/applications/:id`: Update a job application by ID.
+- **DELETE** `/api/applications/:id`: Delete a job application by ID.
+
+## Contributing
+
 Contributions are welcome! Please fork the repository and submit pull requests.
+
