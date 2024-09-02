@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB URI
-const mongoURI = 'mongodb+srv://murtazarizwan4505:murtaza123@cluster2.z40ocrn.mongodb.net/jobApplications';
+const mongoURI = 'MongoDB URI';
 
 // Connect to MongoDB
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
